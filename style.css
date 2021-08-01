@@ -21,7 +21,7 @@ body {
 }
 
 .wavy::before {
-  content: 'aaaaaaaaa';
+  content: 'aaaaaaaaaaaa';
   position: absolute;
   top: -42px;
   left: 0;
@@ -30,4 +30,14 @@ body {
   text-decoration-style: wavy;
   text-decoration-color: #fff;
   text-decoration-line: underline;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: translateX(-55px);
+  }
 }
