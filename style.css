@@ -21,7 +21,7 @@ body {
 }
 
 .wavy::before {
-  content: 'aaaaaaaaaaaa';
+  content: 'aaaaaaaaaaaaa';
   position: absolute;
   top: -42px;
   left: 0;
